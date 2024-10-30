@@ -14,7 +14,7 @@ namespace BMI.MVVM.Model
         private double _result;
         private string _resultText = string.Empty;
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler?PropertyChanged;
 
         public int Height
         {
